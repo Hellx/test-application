@@ -17,9 +17,24 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation("org.projectlombok:lombok:1.18.30")
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation("org.apache.logging.log4j:log4j-core:3.0.0-alpha1")
+	implementation("org.apache.logging.log4j:log4j-api:3.0.0-alpha1")
+	implementation("org.apache.logging.log4j:log4j-slf4j-impl:3.0.0-alpha1")
+	//implementation("org.springframework.boot:spring-boot-starter-log4j2")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
+	implementation ("io.swagger.core.v3:swagger-annotations:2.2.18")
+
 	runtimeOnly 'org.postgresql:postgresql'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation("org.flywaydb:flyway-core:9.0.4")
+
+	//testImplementation("org.flywaydb.flyway-test-extensions:flyway-spring-test:9.5.0")
+	annotationProcessor "org.apache.logging.log4j:log4j-core:3.0.0-alpha1"
+	annotationProcessor "org.projectlombok:lombok:1.18.30"
+	testAnnotationProcessor "org.apache.logging.log4j:log4j-core:3.0.0-alpha1"
+	testAnnotationProcessor "org.projectlombok:lombok:1.18.30"
 }
 
 tasks.named('test') {

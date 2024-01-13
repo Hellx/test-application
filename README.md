@@ -18,11 +18,18 @@ Write us Your best code!
 After completing the tasks, please provide us with:
 1. Full database dump (structure and data)
 2. Source code
+
+
 ---
 Set up database - (install Postgres)
 Login to postgres and execute following script:
 ```
     CREATE DATABASE testdb;
-    CREATE USER testapi WITH PASSWORD 'testapipsw' SUPERUSER;
-    GRANT ALL PRIVILEGES ON DATABASE TESTDB TO testapi;
 ```
+UI http://localhost:8080/
+
+Swagger
+http://localhost:8080/swagger-ui/index.html
+
+
+
