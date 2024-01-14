@@ -38,7 +38,7 @@ function refillForm() {
             if (element.id == 'name') {
                 element.value = formData.name;
             }
-            if (element.id == 'agreement' && formData.agreement == 'on') {
+            if (element.id == "agreement" && formData.agreement == "on") {
                 //element.setAttribute('checked', true);
                 element.checked = true;
                 //$(checkbox).prop('checked', true);
@@ -107,6 +107,33 @@ addDataToLocalStorage();
              window.location.href = "/error.html";
         }
     });
+}
+
+function validateForm() {
+    var form = document.getElementById("sectorsForm");
+    var elements = form.elements;
+    var isValid = true;
+
+    for (var i = 0; i < elements.length; i++) {
+            if (!isButton(elements[i]) && (elements[i].value.trim() === "" || (isNotCheckedCheckbox(elements[i])))) {
+            isValid = false;
+            alert("Please fill in all fields.");
+            break;
+        }
+    }
+
+    if (isValid) {
+        alert("Form is valid. Submitting...");
+        addSessionData();
+    }
+}
+
+function isButton(element) {
+    return element.type == "button" || element.type == "submit";
+}
+
+function isNotCheckedCheckbox(element) {
+    return element.type == "checkbox" && element.checked == false;
 }
 
 function text(url) {
