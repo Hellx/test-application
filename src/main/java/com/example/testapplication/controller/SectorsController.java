@@ -32,8 +32,7 @@ public class SectorsController {
     @Operation(summary = "Add forms data", description = "{@APIResource=Sectors}")
     @PostMapping(value = "/form-data/")
     //@PreAuthorize("hasRole('') && hasPermission()")
-    public ResponseEntity<Void> addFormData(
-            @Valid  @RequestBody SessionData sessionData) {
+    public ResponseEntity<Void> addFormData(@Valid  @RequestBody SessionData sessionData) {
         System.out.println("Form data: " + sessionData);
         sectorsService.addSessionData(sessionData);
         return new ResponseEntity<>(NO_CONTENT);
