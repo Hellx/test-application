@@ -1,0 +1,318 @@
+[
+  {
+    "optionValue": 1,
+    "name": "Manufacturing"
+  },
+  {
+    "optionValue": 19,
+    "name": "Construction materials"
+  },
+  {
+    "optionValue": 18,
+    "name": "Electronics and Optics"
+  },
+  {
+    "optionValue": 6,
+    "name": "Food and Beverage"
+  },
+  {
+    "optionValue": 342,
+    "name": "Bakery & confectionery products"
+  },
+  {
+    "optionValue": 43,
+    "name": "Beverages"
+  },
+  {
+    "optionValue": 42,
+    "name": "Fish & fish products"
+  },
+  {
+    "optionValue": 40,
+    "name": "Meat & meat products"
+  },
+  {
+    "optionValue": 39,
+    "name": "Milk & dairy products"
+  },
+  {
+    "optionValue": 437,
+    "name": "Other"
+  },
+  {
+    "optionValue": 378,
+    "name": "Sweets & snack food"
+  },
+  {
+    "optionValue": 13,
+    "name": "Furniture"
+  },
+  {
+    "optionValue": 389,
+    "name": "Bathroom/sauna"
+  },
+  {
+    "optionValue": 385,
+    "name": "Bedroom"
+  },
+  {
+    "optionValue": 390,
+    "name": "Children’s room"
+  },
+  {
+    "optionValue": 98,
+    "name": "Kitchen"
+  },
+  {
+    "optionValue": 101,
+    "name": "Living room"
+  },
+  {
+    "optionValue": 392,
+    "name": "Office"
+  },
+  {
+    "optionValue": 394,
+    "name": "Other (Furniture)"
+  },
+  {
+    "optionValue": 341,
+    "name": "Outdoor"
+  },
+  {
+    "optionValue": 99,
+    "name": "Project furniture"
+  },
+  {
+    "optionValue": 12,
+    "name": "Machinery"
+  },
+  {
+    "optionValue": 94,
+    "name": "Machinery components"
+  },
+  {
+    "optionValue": 91,
+    "name": "Machinery equipment/tools"
+  },
+  {
+    "optionValue": 224,
+    "name": "Manufacture of machinery"
+  },
+  {
+    "optionValue": 97,
+    "name": "Maritime"
+  },
+  {
+    "optionValue": 271,
+    "name": "Aluminium and steel workboats"
+  },
+  {
+    "optionValue": 269,
+    "name": "Boat/Yacht building"
+  },
+  {
+    "optionValue": 230,
+    "name": "Ship repair and conversion"
+  },
+  {
+    "optionValue": 93,
+    "name": "Metal structures"
+  },
+  {
+    "optionValue": 508,
+    "name": "Other"
+  },
+  {
+    "optionValue": 227,
+    "name": "Repair and maintenance service"
+  },
+  {
+    "optionValue": 11,
+    "name": "Metalworking"
+  },
+  {
+    "optionValue": 67,
+    "name": "Construction of metal structures"
+  },
+  {
+    "optionValue": 263,
+    "name": "Houses and buildings"
+  },
+  {
+    "optionValue": 267,
+    "name": "Metal products"
+  },
+  {
+    "optionValue": 542,
+    "name": "Metal works"
+  },
+  {
+    "optionValue": 75,
+    "name": "CNC-machining"
+  },
+  {
+    "optionValue": 62,
+    "name": "Forgings, Fasteners"
+  },
+  {
+    "optionValue": 69,
+    "name": "Gas, Plasma, Laser cutting"
+  },
+  {
+    "optionValue": 66,
+    "name": "MIG, TIG, Aluminum welding"
+  },
+  {
+    "optionValue": 9,
+    "name": "Plastic and Rubber"
+  },
+  {
+    "optionValue": 54,
+    "name": "Packaging"
+  },
+  {
+    "optionValue": 556,
+    "name": "Plastic goods"
+  },
+  {
+    "optionValue": 559,
+    "name": "Plastic processing technology"
+  },
+  {
+    "optionValue": 55,
+    "name": "Blowing"
+  },
+  {
+    "optionValue": 57,
+    "name": "Moulding"
+  },
+  {
+    "optionValue": 53,
+    "name": "Plastics welding and processing"
+  },
+  {
+    "optionValue": 560,
+    "name": "Plastic profiles"
+  },
+  {
+    "optionValue": 5,
+    "name": "Printing"
+  },
+  {
+    "optionValue": 148,
+    "name": "Advertising"
+  },
+  {
+    "optionValue": 150,
+    "name": "Book/Periodicals printing"
+  },
+  {
+    "optionValue": 145,
+    "name": "Labelling and packaging printing"
+  },
+  {
+    "optionValue": 7,
+    "name": "Textile and Clothing"
+  },
+  {
+    "optionValue": 44,
+    "name": "Clothing"
+  },
+  {
+    "optionValue": 45,
+    "name": "Textile"
+  },
+  {
+    "optionValue": 8,
+    "name": "Wood"
+  },
+  {
+    "optionValue": 337,
+    "name": "Other (Wood)"
+  },
+  {
+    "optionValue": 51,
+    "name": "Wooden building materials"
+  },
+  {
+    "optionValue": 47,
+    "name": "Wooden houses"
+  },
+  {
+    "optionValue": 3,
+    "name": "Other"
+  },
+  {
+    "optionValue": 37,
+    "name": "Creative industries"
+  },
+  {
+    "optionValue": 29,
+    "name": "Energy technology"
+  },
+  {
+    "optionValue": 33,
+    "name": "Environment"
+  },
+  {
+    "optionValue": 2,
+    "name": "Service"
+  },
+  {
+    "optionValue": 25,
+    "name": "Business services"
+  },
+  {
+    "optionValue": 35,
+    "name": "Engineering"
+  },
+  {
+    "optionValue": 28,
+    "name": "Information Technology and Telecommunications"
+  },
+  {
+    "optionValue": 581,
+    "name": "Data processing, Web portals, E-marketing"
+  },
+  {
+    "optionValue": 576,
+    "name": "Programming, Consultancy"
+  },
+  {
+    "optionValue": 121,
+    "name": "Software, Hardware"
+  },
+  {
+    "optionValue": 122,
+    "name": "Telecommunications"
+  },
+  {
+    "optionValue": 22,
+    "name": "Tourism"
+  },
+  {
+    "optionValue": 141,
+    "name": "Translation services"
+  },
+  {
+    "optionValue": 21,
+    "name": "Transport and Logistics"
+  },
+  {
+    "optionValue": 111,
+    "name": "Air"
+  },
+  {
+    "optionValue": 114,
+    "name": "Rail"
+  },
+  {
+    "optionValue": 112,
+    "name": "Road"
+  },
+  {
+    "optionValue": 113,
+    "name": "Water"
+  }
+]
