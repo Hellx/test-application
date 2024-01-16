@@ -13,7 +13,6 @@ public class SectorsService {
     private final SectorsRepository sectorsRepository;
 
     public List<Sector> getAllSectors() {
-        //throwNotFoundIfNull(sectorsRepository.getAllSectors());
         return sectorsRepository.getAllSectors();
     }
 
