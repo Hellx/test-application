@@ -1,0 +1,2 @@
+INSERT INTO personal_sectors (uid, sector_id, created_ts) VALUES ('1234', 22, CURRENT_TIMESTAMP );
+INSERT INTO session_details (uid, name, agreement, created_ts) VALUES ('1234', 'Test', 'on', CURRENT_TIMESTAMP );
